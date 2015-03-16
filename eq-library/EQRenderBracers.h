@@ -1,6 +1,6 @@
 //
 //  EQRenderBracers.h
-//  EQ Editor
+//  eq-library
 //
 //  Created by Raymond Hodgson on 04/22/14.
 //  Copyright (c) 2014-2015 Raymond Hodgson. All rights reserved.
@@ -22,6 +22,10 @@
 #import <Foundation/Foundation.h>
 
 #import "EQRenderData.h"
+
+// This class is used to support bracer drawing, including determining the correct size of bracers and laying them out correctly.
+// It is separate from the "stretchy" bracer class which renders very large bracers by combining multiple glyphs to represent
+// a single logical character.
 
 @interface EQRenderBracers : NSObject
 

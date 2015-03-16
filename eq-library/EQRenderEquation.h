@@ -1,6 +1,6 @@
 //
 //  EQRenderEquation.h
-//  EQ Writer 2
+//  eq-library
 //
 //  Created by Raymond Hodgson on 10/2/14.
 //  Copyright (c) 2014-2015 Raymond Hodgson. All rights reserved.
@@ -18,6 +18,8 @@
 
 #import <Foundation/Foundation.h>
 
+// This class is used to store the resulting equation data and draw that data in a graphics context.
+// See documentation for more details on some of the different methods.
 @interface EQRenderEquation : NSObject
 
 @property (strong, nonatomic) NSMutableArray *equationLines;

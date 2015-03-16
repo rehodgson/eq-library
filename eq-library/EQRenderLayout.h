@@ -1,6 +1,6 @@
 //
 //  EQRenderLayout.h
-//  EQ Editor
+//  eq-library
 //
 //  Created by Raymond Hodgson on 09/28/13.
 //  Copyright (c) 2013-2015 Raymond Hodgson. All rights reserved.
@@ -20,6 +20,7 @@
 #import "EQRenderData.h"
 #import "EQRenderStem.h"
 
+// Generic grouping of class methods that are used by the typesetter class, mostly.
 @interface EQRenderLayout : NSObject
 
 

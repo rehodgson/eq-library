@@ -1,6 +1,6 @@
 //
 //  ConvertMathToImage.m
-//  EQ Writer 2
+//  eq-library
 //
 //  Created by Raymond Hodgson on 11/4/14.
 //  Copyright (c) 2014-2015 Raymond Hodgson. All rights reserved.

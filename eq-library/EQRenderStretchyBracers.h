@@ -1,6 +1,6 @@
 //
 //  EQRenderStretchyBracers.h
-//  EQ Editor
+//  eq-library
 //
 //  Created by Raymond Hodgson on 07/2/14.
 //  Copyright (c) 2014-2015 Raymond Hodgson. All rights reserved.
@@ -36,6 +36,8 @@ typedef enum
     bracerTypeMidBottom,
     bracerTypeTopMidBottomExt,
 } StretchyBracerType;
+
+// This class is used to store and layout very large bracers which may require multiple glyphs to represent a single logical character.
 
 @interface EQRenderStretchyBracers : NSObject
 

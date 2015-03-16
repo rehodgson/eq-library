@@ -1,6 +1,6 @@
 //
 //  EQXMLImporter.m
-//  EQ Editor
+//  eq-library
 //
 //  Created by Raymond Hodgson on 06/25/14.
 //  Copyright (c) 2014-2015 Raymond Hodgson. All rights reserved.
@@ -40,6 +40,7 @@ typedef enum
 
 @implementation EQXMLImporter
 
+// This will attempt to parse the given XML data and then call an internal method to populate a data source with the XML tree.
 + (EquationViewDataSource *)populateDataSourceWithXMLData: (NSData *)xmlData
 {
     if (nil == xmlData)
@@ -62,6 +63,7 @@ typedef enum
     return returnDataSource;
 }
 
+// This will attempt to open a file containing MathML data and then call an internal method to populate a data source with the XML tree.
 + (EquationViewDataSource *)populateDataSourceWithXML: (NSURL *)fileURL;
 {
     if (![[NSFileManager defaultManager] fileExistsAtPath:fileURL.path])
@@ -104,6 +106,7 @@ typedef enum
     return returnDataSource;
 }
 
+// This will attempt to parse the given XML string and use an internal method to populate the datasource with the XML tree.
 + (EquationViewDataSource *)populateDataSourceWithXMLString: (NSString *)xmlStr
 {
     if (nil == xmlStr || xmlStr.length == 0)
@@ -126,6 +129,7 @@ typedef enum
     return returnDataSource;
 }
 
+// This method creates a new data source and iterates over each child element adding its data to the data source.
 + (EquationViewDataSource *)buildDataSourceFromXML: (DDXMLDocument *)xmlDoc
 {
     EquationViewDataSource *returnDataSource = [[EquationViewDataSource alloc] init];
@@ -174,6 +178,7 @@ typedef enum
     return returnDataSource;
 }
 
+// This method will examine a child and either add its data to the data source, or iterate over its children to add their data.
 + (void)addMathElement: (DDXMLElement *)rootElement toDataSource: (EquationViewDataSource *)returnDataSource
 {
     if (nil == rootElement || nil == returnDataSource || rootElement.childCount == 0)
@@ -193,6 +198,8 @@ typedef enum
     }
 }
 
+// This method adds the data for a "leaf" element to the data source.
+// The element name is parsed and different methods are called depending on the type of element.
 + (void)addLeafElement: (DDXMLElement *)childElement toDataSource: (EquationViewDataSource *)returnDataSource
 {
     // Test to see if you need to be in text mode or not.
@@ -314,6 +321,9 @@ typedef enum
     }
 }
 
+// This method examines each "stem" element and adds its children to the data source.
+// The children are added differently depending on the parent type.
+// Some stem element types recursively call this method as well.
 + (void)addStemElement: (DDXMLElement *)stemElement toDataSource: (EquationViewDataSource *)returnDataSource
 {
     if (nil == stemElement || nil == returnDataSource || stemElement.childCount == 0)

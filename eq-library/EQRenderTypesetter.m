@@ -1,6 +1,6 @@
 //
 //  EQRenderTypesetter.m
-//  EQ Editor
+//  eq-library
 //
 //  Created by Raymond Hodgson on 16/09/13.
 //  Copyright (c) 2013-2015 Raymond Hodgson. All rights reserved.
@@ -47,6 +47,7 @@ NSString* const kRENDER_TYPESETTER_DID_CHANGE_TEXT_NOTIFICATION = @"EQTypesetter
                               inRange: (EQTextRange *)selectedTextRange
                       usingRenderData: (NSMutableArray *)renderData;
 
+// Some of these method declarations aren't strictly needed anymore, but where used by the compiler at the time.
 - (void)parseInputData: (EQInputData *)inputData
               withData: (EQRenderData *)selectedData
                inRange: (EQTextRange *)selectedTextRange
@@ -128,6 +129,7 @@ withAttributedText: (NSAttributedString *)attributedText
 }
 
 // Internal methods.
+// Called to help resolve UITextInput protocol methods more simply.
 - (EQRenderData *)renderData: (NSArray *)renderData dataContainingTextPosition: (EQTextPosition *)textPosition
 {
     if (nil == textPosition || textPosition.index == NSNotFound || textPosition.dataLoc > renderData.count)
@@ -164,6 +166,7 @@ withAttributedText: (NSAttributedString *)attributedText
 
 // End Internal Methods.
 
+// Forces the code to generate an exception if you try and add something that doesn't support the protocol.
 - (void)setTypesetterDelegate:(id)newTypesetterDelegate
 {
     if(newTypesetterDelegate && ![newTypesetterDelegate conformsToProtocol:@protocol(EQTypesetterDelegate)])
@@ -175,6 +178,8 @@ withAttributedText: (NSAttributedString *)attributedText
     self->_typesetterDelegate = newTypesetterDelegate;
 }
 
+// One common entry point for this code.
+// This is called by the data source and it checks the type and figures out how to style the data.
 - (void) addData: (id)newData
 {
     NSAssert(nil != self.typesetterDelegate, @"Uninitialized Delegate.");
@@ -241,6 +246,7 @@ withAttributedText: (NSAttributedString *)attributedText
     }
 }
 
+// Another possible entry point, though not likely to be used outside of a UITextInput context.
 - (void)replaceDataInRange:(EQTextRange *)textRange withData:(id)data
 {
     NSAssert(nil != self.typesetterDelegate, @"Uninitialized Delegate.");
@@ -283,6 +289,7 @@ withAttributedText: (NSAttributedString *)attributedText
     }
 }
 
+// Another possible entry point, though not likely to be used outside of UITextInput.
 - (void)deleteBackward
 {
     NSAssert(nil != self.typesetterDelegate, @"Uninitialized Delegate.");

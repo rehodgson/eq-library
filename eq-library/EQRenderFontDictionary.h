@@ -1,6 +1,6 @@
 //
 //  EQRenderFontDictionary.h
-//  EQ Editor Lite
+//  eq-library
 //
 //  Created by Raymond Hodgson on 12/10/12.
 //  Copyright (c) 2012-2015 Raymond Hodgson. All rights reserved.
@@ -55,7 +55,9 @@ typedef struct EQfontMetrics
     CGFloat fontXHeightValue;
 } EQfontMetrics;
 
-// Object interface.
+// This class allows you to create an attributed string dictionary for a given font and size.
+// It also includes a few app-specific attributed keys that are used to store important typesetting information.
+
 @interface EQRenderFontDictionary : NSObject
 
 + (NSDictionary *)fontDictWithName: (NSString *)fontName size: (CGFloat)useSize kernValue: (CGFloat)kernValue;

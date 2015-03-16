@@ -1,6 +1,6 @@
 //
 //  EQRenderFontDictionary.m
-//  EQ Editor Lite
+//  eq-library
 //
 //  Created by Raymond Hodgson on 12/10/12.
 //  Copyright (c) 2012-2015 Raymond Hodgson. All rights reserved.

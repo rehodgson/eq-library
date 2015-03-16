@@ -1,6 +1,6 @@
 //
 //  EQParsedLeaf.h
-//  EQ Editor
+//  eq-library
 //
 //  Created by Raymond Hodgson on 06/5/14.
 //  Copyright (c) 2014-2015 Raymond Hodgson. All rights reserved.
@@ -19,6 +19,9 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import "DDXML.h"
+
+// This class is used to store the data while parsing the MathML input.
+// The final result is then used to produce input for the EquationViewDataSource class.
 
 typedef enum
 {

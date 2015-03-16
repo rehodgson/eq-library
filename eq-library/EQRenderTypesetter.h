@@ -1,6 +1,6 @@
 //
 //  EQRenderTypesetter.h
-//  EQ Editor
+//  eq-library
 //
 //  Created by Raymond Hodgson on 16/09/13.
 //  Copyright (c) 2013-2015 Raymond Hodgson. All rights reserved.
@@ -28,6 +28,18 @@ extern NSString* const kRENDER_TYPESETTER_WILL_CHANGE_SELECTED_NOTIFICATION;
 extern NSString* const kRENDER_TYPESETTER_DID_CHANGE_SELECTED_NOTIFICATION;
 extern NSString* const kRENDER_TYPESETTER_WILL_CHANGE_TEXT_NOTIFICATION;
 extern NSString* const kRENDER_TYPESETTER_DID_CHANGE_TEXT_NOTIFICATION;
+
+// This class is a bit of a catch all.
+
+// The way math layout and rendering is handled is a two step process.
+// First, you load the styled data into a tree of nested classes that roughly correspond to MathML elements.
+// Then you traverse that tree to generate draw instructions.
+
+// This class is designed to take in a string input and style it correctly (spacing, kerning, italics, etc.).
+// The result is then stored into an attributed string and an object containing the string
+// that roughly corresponds to a MathML element. (So basically step 1.)
+
+// It also contains some class methods to help you sort out some of the more obscure character types and relationships.
 
 @protocol EQTypesetterDelegate;
 
@@ -102,7 +114,8 @@ extern NSString* const kRENDER_TYPESETTER_DID_CHANGE_TEXT_NOTIFICATION;
 
 @end
 
-
+// This protocol is used to talk to the data source and get/set required data about the current active equation line.
+// Some of this is used to correspond to UITextInput methods that aren't needed in many cases but difficult to disentangle.
 @protocol EQTypesetterDelegate
 
 - (NSMutableArray *) getRenderData;

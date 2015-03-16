@@ -1,6 +1,6 @@
 //
 //  EquationViewDataSource.m
-//  EQ Editor
+//  eq-library
 //
 //  Created by Raymond Hodgson on 31/08/13.
 //  Copyright (c) 2013-2015 Raymond Hodgson. All rights reserved.
@@ -72,7 +72,8 @@ CGFloat const kDEFAULT_LABEL_SIZE = 24.0;
 }
 
 /*
-    Internal methods
+    Internal methods some of these are used in response to a view that may implement the UITextInput protocol.
+    Not likely to be needed in a simple math to image context.
 */
 
 - (void)sendViewUpdate

@@ -1,6 +1,6 @@
 //
 //  EQXMLConstants.m
-//  EQ Editor
+//  eq-library
 //
 //  Created by Raymond Hodgson on 06/25/14.
 //  Copyright (c) 2014-2015 Raymond Hodgson. All rights reserved.

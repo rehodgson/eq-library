@@ -17,8 +17,6 @@
 		716EC1341AB67770005DC6B0 /* EQParsedLeaf.m in Sources */ = {isa = PBXBuildFile; fileRef = 716EC12C1AB67770005DC6B0 /* EQParsedLeaf.m */; };
 		716EC1351AB67770005DC6B0 /* EQXMLConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 716EC12E1AB67770005DC6B0 /* EQXMLConstants.m */; };
 		716EC1361AB67770005DC6B0 /* EQXMLImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 716EC1301AB67770005DC6B0 /* EQXMLImporter.m */; };
-		716EC1371AB67770005DC6B0 /* unicode-latex-dictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 716EC1311AB67770005DC6B0 /* unicode-latex-dictionary.plist */; };
-		716EC1381AB67770005DC6B0 /* UnicodeToLaTeXDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 716EC1331AB67770005DC6B0 /* UnicodeToLaTeXDictionary.m */; };
 		716EC1471AB677F9005DC6B0 /* EQDataSourceState.m in Sources */ = {isa = PBXBuildFile; fileRef = 716EC13B1AB677F9005DC6B0 /* EQDataSourceState.m */; };
 		716EC1481AB677F9005DC6B0 /* EQRenderEquation.m in Sources */ = {isa = PBXBuildFile; fileRef = 716EC13D1AB677F9005DC6B0 /* EQRenderEquation.m */; };
 		716EC1491AB677F9005DC6B0 /* EQRenderTypesetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 716EC13F1AB677F9005DC6B0 /* EQRenderTypesetter.m */; };
@@ -113,9 +111,6 @@
 		716EC12E1AB67770005DC6B0 /* EQXMLConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EQXMLConstants.m; sourceTree = "<group>"; };
 		716EC12F1AB67770005DC6B0 /* EQXMLImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EQXMLImporter.h; sourceTree = "<group>"; };
 		716EC1301AB67770005DC6B0 /* EQXMLImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EQXMLImporter.m; sourceTree = "<group>"; };
-		716EC1311AB67770005DC6B0 /* unicode-latex-dictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "unicode-latex-dictionary.plist"; sourceTree = "<group>"; };
-		716EC1321AB67770005DC6B0 /* UnicodeToLaTeXDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnicodeToLaTeXDictionary.h; sourceTree = "<group>"; };
-		716EC1331AB67770005DC6B0 /* UnicodeToLaTeXDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnicodeToLaTeXDictionary.m; sourceTree = "<group>"; };
 		716EC13A1AB677F9005DC6B0 /* EQDataSourceState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EQDataSourceState.h; sourceTree = "<group>"; };
 		716EC13B1AB677F9005DC6B0 /* EQDataSourceState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EQDataSourceState.m; sourceTree = "<group>"; };
 		716EC13C1AB677F9005DC6B0 /* EQRenderEquation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EQRenderEquation.h; sourceTree = "<group>"; };
@@ -325,9 +320,6 @@
 				716EC12E1AB67770005DC6B0 /* EQXMLConstants.m */,
 				716EC12F1AB67770005DC6B0 /* EQXMLImporter.h */,
 				716EC1301AB67770005DC6B0 /* EQXMLImporter.m */,
-				716EC1311AB67770005DC6B0 /* unicode-latex-dictionary.plist */,
-				716EC1321AB67770005DC6B0 /* UnicodeToLaTeXDictionary.h */,
-				716EC1331AB67770005DC6B0 /* UnicodeToLaTeXDictionary.m */,
 			);
 			name = "XML Import Classes";
 			sourceTree = "<group>";
@@ -357,18 +349,18 @@
 			children = (
 				716EC1511AB678CA005DC6B0 /* EQRenderData.h */,
 				716EC1521AB678CA005DC6B0 /* EQRenderData.m */,
+				716EC15B1AB678CA005DC6B0 /* EQRenderStem.h */,
+				716EC15C1AB678CA005DC6B0 /* EQRenderStem.m */,
 				716EC1531AB678CA005DC6B0 /* EQRenderFracStem.h */,
 				716EC1541AB678CA005DC6B0 /* EQRenderFracStem.m */,
-				716EC14F1AB678CA005DC6B0 /* EQRenderBracers.h */,
-				716EC1501AB678CA005DC6B0 /* EQRenderBracers.m */,
-				716EC1551AB678CA005DC6B0 /* EQRenderLayout.h */,
-				716EC1561AB678CA005DC6B0 /* EQRenderLayout.m */,
 				716EC1571AB678CA005DC6B0 /* EQRenderMatrixRowStem.h */,
 				716EC1581AB678CA005DC6B0 /* EQRenderMatrixRowStem.m */,
 				716EC1591AB678CA005DC6B0 /* EQRenderMatrixStem.h */,
 				716EC15A1AB678CA005DC6B0 /* EQRenderMatrixStem.m */,
-				716EC15B1AB678CA005DC6B0 /* EQRenderStem.h */,
-				716EC15C1AB678CA005DC6B0 /* EQRenderStem.m */,
+				716EC1551AB678CA005DC6B0 /* EQRenderLayout.h */,
+				716EC1561AB678CA005DC6B0 /* EQRenderLayout.m */,
+				716EC14F1AB678CA005DC6B0 /* EQRenderBracers.h */,
+				716EC1501AB678CA005DC6B0 /* EQRenderBracers.m */,
 				716EC15D1AB678CA005DC6B0 /* EQRenderStretchyBracers.h */,
 				716EC15E1AB678CA005DC6B0 /* EQRenderStretchyBracers.m */,
 			);
@@ -620,7 +612,6 @@
 				716EC23C1AB68EFC005DC6B0 /* STIXttfSiz1Sym.ttf in Resources */,
 				716EC2391AB68EFC005DC6B0 /* STIXSizeOneSym-Regular.otf in Resources */,
 				716EC2341AB68EFC005DC6B0 /* STIXGeneralttf.ttf in Resources */,
-				716EC1371AB67770005DC6B0 /* unicode-latex-dictionary.plist in Resources */,
 				716EC2351AB68EFC005DC6B0 /* STIXGeneralttfBol.ttf in Resources */,
 				716EC2371AB68EFC005DC6B0 /* STIXGeneralttfItalic.ttf in Resources */,
 				716EC23D1AB68EFC005DC6B0 /* STIXttfSiz2Sym.ttf in Resources */,
@@ -670,7 +661,6 @@
 				716EC1711AB67941005DC6B0 /* EQInputData.m in Sources */,
 				716EC1661AB678CA005DC6B0 /* EQRenderStretchyBracers.m in Sources */,
 				716EC1621AB678CA005DC6B0 /* EQRenderLayout.m in Sources */,
-				716EC1381AB67770005DC6B0 /* UnicodeToLaTeXDictionary.m in Sources */,
 				716EC24F1AB69B65005DC6B0 /* RenderMathInPDF.m in Sources */,
 				716EC1741AB67941005DC6B0 /* EQTextRange.m in Sources */,
 				716EC1481AB677F9005DC6B0 /* EQRenderEquation.m in Sources */,

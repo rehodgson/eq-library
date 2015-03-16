@@ -1,6 +1,6 @@
 //
 //  EQRenderData.h
-//  EQ Editor
+//  eq-library
 //
 //  Created by Raymond Hodgson on 2/09/13.
 //  Copyright (c) 2013-2015 Raymond Hodgson. All rights reserved.
@@ -20,6 +20,10 @@
 #import "EQTextPosition.h"
 #import "EQTextRange.h"
 #import "EQRenderStem.h"
+
+// The is the base "Leaf" class of the data tree.
+// It stores the styled attributed string and a draw location.
+// It also has methods to compute the actual draw size and other typographic data.
 
 @interface EQRenderData : NSObject <NSCoding>
 

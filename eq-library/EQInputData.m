@@ -1,6 +1,6 @@
 //
 //  EQInputData.m
-//  EQ Editor
+//  eq-library
 //
 //  Created by Raymond Hodgson on 11/16/13.
 //  Copyright (c) 2013-2015 Raymond Hodgson. All rights reserved.

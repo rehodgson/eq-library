@@ -1,6 +1,6 @@
 //
 //  EQXMLImporter.h
-//  EQ Editor
+//  eq-library
 //
 //  Created by Raymond Hodgson on 06/25/14.
 //  Copyright (c) 2014-2015 Raymond Hodgson. All rights reserved.
@@ -18,6 +18,8 @@
 
 #import <Foundation/Foundation.h>
 #import "EquationViewDataSource.h"
+
+// This class populates the data source, which is what is then read back to generate draw commands.
 
 @interface EQXMLImporter : NSObject
 

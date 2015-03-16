@@ -1,6 +1,6 @@
 //
 //  EQRenderEquation.m
-//  EQ Writer 2
+//  eq-library
 //
 //  Created by Raymond Hodgson on 10/2/14.
 //  Copyright (c) 2014-2015 Raymond Hodgson. All rights reserved.
@@ -80,6 +80,7 @@
     return self;
 }
 
+// This method is not ideal, but it doesn't require calls to CTLine so is less resource intensive.
 - (CGSize)computeInlineSize
 {
     if (nil == self.equationLines || self.equationLines.count == 0)
@@ -102,6 +103,7 @@
 
 
 // Computes the rect needed to enclose all of the renderData.
+// The indirectly calls CTLine sizing methods and can be resource intensive if called repeatedly.
 - (CGRect)getBoundingFrameWithData: (NSArray *)dataArray
 {
     if (nil == dataArray || dataArray.count == 0)
@@ -146,6 +148,8 @@
     return returnRect;
 }
 
+// This calls equation alignment methods in addition to normal layout of equations.
+// However, equation alignment does not happen unless all of the equation data is in the same data source.
 - (void)layoutEquationLines
 {
     CGPoint trackOrigin = CGPointZero;
@@ -234,15 +238,12 @@
     {
         trackSize.height = 40.0;
     }
-/*
-    // You need to add some to the height to account for the fact that the origin is in the top left,
-    // but the equation's origin is not otherwise you will fail to hit test equations at the bottom of the view.
-    trackSize.width += 40.0;
-    trackSize.height += 40.0;
-*/
+
     self.drawSize = trackSize;
 }
 
+// This method requires an active graphics context to draw in.
+// You should already have called other methods to lay out the equations or required data will not have been created.
 - (void)drawEquationLinesInRect:(CGRect)useRect
 {
     CGContextRef context = UIGraphicsGetCurrentContext();
@@ -291,6 +292,9 @@
     CGContextRestoreGState(context);
 }
 
+// This method is called once for every equation.
+// It reads through each RenderData and handles things like fraction bars and radicals.
+// Actual text drawing is handled in a different method.
 - (void)drawSingleLine: (NSArray *)equationLine
 {
     // Flip context.
@@ -480,6 +484,8 @@
     CGContextRestoreGState(context);
 }
 
+// This method creates a CTLine for each attributed string and draws it at the given point.
+// It also automatically swaps fonts if you need to use TTF instead of OTF fonts.
 - (void)drawRenderString:(NSAttributedString *)renderString atPoint: (CGPoint)drawPoint inContext: (CGContextRef)context
 {
     if (nil != renderString && renderString.length > 0)

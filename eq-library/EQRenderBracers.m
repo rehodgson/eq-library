@@ -1,6 +1,6 @@
 //
 //  EQRenderBracers.m
-//  EQ Editor
+//  eq-library
 //
 //  Created by Raymond Hodgson on 04/22/14.
 //  Copyright (c) 2014-2015 Raymond Hodgson. All rights reserved.

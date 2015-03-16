@@ -1,6 +1,6 @@
 //
 //  EquationViewDataSource.h
-//  EQ Writer 2
+//  eq-library
 //
 //  Created by Raymond Hodgson on 31/08/13.
 //  Copyright (c) 2013-2015 Raymond Hodgson. All rights reserved.
@@ -28,6 +28,10 @@
 #import "EQRenderStem.h"
 #import "EQRenderEquation.h"
 
+// This class is used to handle input commands and maybe do some work on them before passing them to the typesetter.
+// It also stores multiple equation lines internally as the typesetter only really works with the active equation line.
+
+// Also supports NSCoding and can be used to save to an internal format rather than using MathML.
 @interface EquationViewDataSource : NSObject <EquationViewDataSource, EQTypesetterDelegate, NSCoding>
 {
     EQTextRange *markedTextRange;

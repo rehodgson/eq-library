@@ -1,6 +1,6 @@
 //
 //  EQParsedLeaf.m
-//  EQ Editor
+//  eq-library
 //
 //  Created by Raymond Hodgson on 06/5/14.
 //  Copyright (c) 2014-2015 Raymond Hodgson. All rights reserved.
@@ -52,6 +52,7 @@
     return self;
 }
 
+// Take in an XML Element and parse it to populate the data fields in this class.
 - (DDXMLElement *)buildElement
 {
     if (nil == self.parsedStr)
@@ -113,6 +114,7 @@
 }
 
 // Just fails silently.
+// Used to merge concurrent XML nodes that should be added at the same time when sending them to the data source class.
 - (void)mergeWithLeaf: (EQParsedLeaf *)mergeLeaf
 {
     if (nil == mergeLeaf || self.parsedType != mergeLeaf.parsedType)

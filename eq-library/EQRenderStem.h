@@ -1,6 +1,6 @@
 //
 //  EQRenderStem.h
-//  EQ Editor
+//  eq-library
 //
 //  Created by Raymond Hodgson on 09/27/13.
 //  Copyright (c) 2013-2015 Raymond Hodgson. All rights reserved.
@@ -45,6 +45,11 @@ typedef enum
     stemTypeMatrixRow,
     stemTypeMatrix,
 } EQRenderStemType;
+
+// This is the base "Stem" class.
+// It has an array containing child "Leaf" classes that it will use to determine layout based on the type of stem.
+// E.g., a "stemTypeFraction" would stack one of its children on top of the other and leave space for a fraction bar.
+// Equation layout can be a complicated process, but happens fairly quickly for most stem types.
 
 @interface EQRenderStem : NSObject <NSCoding>
 
