@@ -22,6 +22,25 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>UIAppFonts</key>
+	<array>
+        <string>STIXGeneral-Bold.otf</string>
+        <string>STIXGeneral-BoldItalic.otf</string>
+        <string>STIXGeneral-Italic.otf</string>
+        <string>STIXGeneral-Regular.otf</string>
+        <string>STIXSizeFourSym-Regular.otf</string>
+        <string>STIXSizeOneSym-Regular.otf</string>
+        <string>STIXSizeThreeSym-Regular.otf</string>
+        <string>STIXSizeTwoSym-Regular.otf</string>
+        <string>STIXGeneralttf.ttf</string>
+        <string>STIXGeneralttfBol.ttf</string>
+        <string>STIXGeneralttfBolIta.ttf</string>
+        <string>STIXGeneralttfItalic.ttf</string>
+        <string>STIXttfSiz1Sym.ttf</string>
+        <string>STIXttfSiz2Sym.ttf</string>
+        <string>STIXttfSiz3Sym.ttf</string>
+        <string>STIXttfSiz4Sym.ttf</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

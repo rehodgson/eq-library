@@ -63,6 +63,23 @@
 		716EC21F1AB67FBB005DC6B0 /* Token.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 716EC20E1AB67FBB005DC6B0 /* Token.cpp */; };
 		716EC2201AB67FBB005DC6B0 /* XmlEncode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 716EC2101AB67FBB005DC6B0 /* XmlEncode.cpp */; };
 		716EC2241AB680D6005DC6B0 /* ConvertBlahtex.mm in Sources */ = {isa = PBXBuildFile; fileRef = 716EC2231AB680D6005DC6B0 /* ConvertBlahtex.mm */; };
+		716EC2271AB6870B005DC6B0 /* ConvertMathToImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 716EC2261AB6870B005DC6B0 /* ConvertMathToImage.m */; };
+		716EC2341AB68EFC005DC6B0 /* STIXGeneralttf.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 716EC2281AB68EFC005DC6B0 /* STIXGeneralttf.ttf */; };
+		716EC2351AB68EFC005DC6B0 /* STIXGeneralttfBol.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 716EC2291AB68EFC005DC6B0 /* STIXGeneralttfBol.ttf */; };
+		716EC2361AB68EFC005DC6B0 /* STIXGeneralttfBolIta.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 716EC22A1AB68EFC005DC6B0 /* STIXGeneralttfBolIta.ttf */; };
+		716EC2371AB68EFC005DC6B0 /* STIXGeneralttfItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 716EC22B1AB68EFC005DC6B0 /* STIXGeneralttfItalic.ttf */; };
+		716EC2381AB68EFC005DC6B0 /* STIXSizeFourSym-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 716EC22C1AB68EFC005DC6B0 /* STIXSizeFourSym-Regular.otf */; };
+		716EC2391AB68EFC005DC6B0 /* STIXSizeOneSym-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 716EC22D1AB68EFC005DC6B0 /* STIXSizeOneSym-Regular.otf */; };
+		716EC23A1AB68EFC005DC6B0 /* STIXSizeThreeSym-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 716EC22E1AB68EFC005DC6B0 /* STIXSizeThreeSym-Regular.otf */; };
+		716EC23B1AB68EFC005DC6B0 /* STIXSizeTwoSym-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 716EC22F1AB68EFC005DC6B0 /* STIXSizeTwoSym-Regular.otf */; };
+		716EC23C1AB68EFC005DC6B0 /* STIXttfSiz1Sym.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 716EC2301AB68EFC005DC6B0 /* STIXttfSiz1Sym.ttf */; };
+		716EC23D1AB68EFC005DC6B0 /* STIXttfSiz2Sym.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 716EC2311AB68EFC005DC6B0 /* STIXttfSiz2Sym.ttf */; };
+		716EC23E1AB68EFC005DC6B0 /* STIXttfSiz3Sym.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 716EC2321AB68EFC005DC6B0 /* STIXttfSiz3Sym.ttf */; };
+		716EC23F1AB68EFC005DC6B0 /* STIXttfSiz4Sym.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 716EC2331AB68EFC005DC6B0 /* STIXttfSiz4Sym.ttf */; };
+		716EC2461AB68F66005DC6B0 /* STIXGeneral-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 716EC2421AB68F66005DC6B0 /* STIXGeneral-Bold.otf */; };
+		716EC2471AB68F66005DC6B0 /* STIXGeneral-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 716EC2431AB68F66005DC6B0 /* STIXGeneral-BoldItalic.otf */; };
+		716EC2481AB68F66005DC6B0 /* STIXGeneral-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 716EC2441AB68F66005DC6B0 /* STIXGeneral-Italic.otf */; };
+		716EC2491AB68F66005DC6B0 /* STIXGeneral-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 716EC2451AB68F66005DC6B0 /* STIXGeneral-Regular.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -181,6 +198,24 @@
 		716EC2111AB67FBB005DC6B0 /* XmlEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmlEncode.h; sourceTree = "<group>"; };
 		716EC2221AB680D6005DC6B0 /* ConvertBlahtex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConvertBlahtex.h; sourceTree = "<group>"; };
 		716EC2231AB680D6005DC6B0 /* ConvertBlahtex.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ConvertBlahtex.mm; sourceTree = "<group>"; };
+		716EC2251AB6870B005DC6B0 /* ConvertMathToImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConvertMathToImage.h; sourceTree = "<group>"; };
+		716EC2261AB6870B005DC6B0 /* ConvertMathToImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConvertMathToImage.m; sourceTree = "<group>"; };
+		716EC2281AB68EFC005DC6B0 /* STIXGeneralttf.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = STIXGeneralttf.ttf; sourceTree = "<group>"; };
+		716EC2291AB68EFC005DC6B0 /* STIXGeneralttfBol.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = STIXGeneralttfBol.ttf; sourceTree = "<group>"; };
+		716EC22A1AB68EFC005DC6B0 /* STIXGeneralttfBolIta.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = STIXGeneralttfBolIta.ttf; sourceTree = "<group>"; };
+		716EC22B1AB68EFC005DC6B0 /* STIXGeneralttfItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = STIXGeneralttfItalic.ttf; sourceTree = "<group>"; };
+		716EC22C1AB68EFC005DC6B0 /* STIXSizeFourSym-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "STIXSizeFourSym-Regular.otf"; sourceTree = "<group>"; };
+		716EC22D1AB68EFC005DC6B0 /* STIXSizeOneSym-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "STIXSizeOneSym-Regular.otf"; sourceTree = "<group>"; };
+		716EC22E1AB68EFC005DC6B0 /* STIXSizeThreeSym-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "STIXSizeThreeSym-Regular.otf"; sourceTree = "<group>"; };
+		716EC22F1AB68EFC005DC6B0 /* STIXSizeTwoSym-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "STIXSizeTwoSym-Regular.otf"; sourceTree = "<group>"; };
+		716EC2301AB68EFC005DC6B0 /* STIXttfSiz1Sym.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = STIXttfSiz1Sym.ttf; sourceTree = "<group>"; };
+		716EC2311AB68EFC005DC6B0 /* STIXttfSiz2Sym.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = STIXttfSiz2Sym.ttf; sourceTree = "<group>"; };
+		716EC2321AB68EFC005DC6B0 /* STIXttfSiz3Sym.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = STIXttfSiz3Sym.ttf; sourceTree = "<group>"; };
+		716EC2331AB68EFC005DC6B0 /* STIXttfSiz4Sym.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = STIXttfSiz4Sym.ttf; sourceTree = "<group>"; };
+		716EC2421AB68F66005DC6B0 /* STIXGeneral-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "STIXGeneral-Bold.otf"; sourceTree = "<group>"; };
+		716EC2431AB68F66005DC6B0 /* STIXGeneral-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "STIXGeneral-BoldItalic.otf"; sourceTree = "<group>"; };
+		716EC2441AB68F66005DC6B0 /* STIXGeneral-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "STIXGeneral-Italic.otf"; sourceTree = "<group>"; };
+		716EC2451AB68F66005DC6B0 /* STIXGeneral-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "STIXGeneral-Regular.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,6 +270,9 @@
 				716EC10D1AB67316005DC6B0 /* ViewController.m */,
 				716EC2221AB680D6005DC6B0 /* ConvertBlahtex.h */,
 				716EC2231AB680D6005DC6B0 /* ConvertBlahtex.mm */,
+				716EC2251AB6870B005DC6B0 /* ConvertMathToImage.h */,
+				716EC2261AB6870B005DC6B0 /* ConvertMathToImage.m */,
+				716EC2401AB68F08005DC6B0 /* STIX Fonts */,
 				716EC1391AB6777A005DC6B0 /* XML Import Classes */,
 				716EC14D1AB67801005DC6B0 /* EQ Render Views */,
 				716EC1671AB678D1005DC6B0 /* EQ Render Data */,
@@ -447,6 +485,45 @@
 			name = "External Libraries";
 			sourceTree = "<group>";
 		};
+		716EC2401AB68F08005DC6B0 /* STIX Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				716EC24A1AB68F6F005DC6B0 /* STIX Standard Fonts */,
+				716EC2411AB68F19005DC6B0 /* STIX TTF Fonts */,
+			);
+			name = "STIX Fonts";
+			sourceTree = "<group>";
+		};
+		716EC2411AB68F19005DC6B0 /* STIX TTF Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				716EC2281AB68EFC005DC6B0 /* STIXGeneralttf.ttf */,
+				716EC2291AB68EFC005DC6B0 /* STIXGeneralttfBol.ttf */,
+				716EC22A1AB68EFC005DC6B0 /* STIXGeneralttfBolIta.ttf */,
+				716EC22B1AB68EFC005DC6B0 /* STIXGeneralttfItalic.ttf */,
+				716EC2301AB68EFC005DC6B0 /* STIXttfSiz1Sym.ttf */,
+				716EC2311AB68EFC005DC6B0 /* STIXttfSiz2Sym.ttf */,
+				716EC2321AB68EFC005DC6B0 /* STIXttfSiz3Sym.ttf */,
+				716EC2331AB68EFC005DC6B0 /* STIXttfSiz4Sym.ttf */,
+			);
+			name = "STIX TTF Fonts";
+			sourceTree = "<group>";
+		};
+		716EC24A1AB68F6F005DC6B0 /* STIX Standard Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				716EC2421AB68F66005DC6B0 /* STIXGeneral-Bold.otf */,
+				716EC2431AB68F66005DC6B0 /* STIXGeneral-BoldItalic.otf */,
+				716EC2441AB68F66005DC6B0 /* STIXGeneral-Italic.otf */,
+				716EC2451AB68F66005DC6B0 /* STIXGeneral-Regular.otf */,
+				716EC22D1AB68EFC005DC6B0 /* STIXSizeOneSym-Regular.otf */,
+				716EC22E1AB68EFC005DC6B0 /* STIXSizeThreeSym-Regular.otf */,
+				716EC22F1AB68EFC005DC6B0 /* STIXSizeTwoSym-Regular.otf */,
+				716EC22C1AB68EFC005DC6B0 /* STIXSizeFourSym-Regular.otf */,
+			);
+			name = "STIX Standard Fonts";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -528,11 +605,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				716EC2481AB68F66005DC6B0 /* STIXGeneral-Italic.otf in Resources */,
 				716EC2161AB67FBB005DC6B0 /* ISTtoCpp.xslt in Resources */,
+				716EC2381AB68EFC005DC6B0 /* STIXSizeFourSym-Regular.otf in Resources */,
+				716EC23A1AB68EFC005DC6B0 /* STIXSizeThreeSym-Regular.otf in Resources */,
 				716EC1111AB67316005DC6B0 /* Main.storyboard in Resources */,
+				716EC23E1AB68EFC005DC6B0 /* STIXttfSiz3Sym.ttf in Resources */,
+				716EC2471AB68F66005DC6B0 /* STIXGeneral-BoldItalic.otf in Resources */,
+				716EC23C1AB68EFC005DC6B0 /* STIXttfSiz1Sym.ttf in Resources */,
+				716EC2391AB68EFC005DC6B0 /* STIXSizeOneSym-Regular.otf in Resources */,
+				716EC2341AB68EFC005DC6B0 /* STIXGeneralttf.ttf in Resources */,
 				716EC1371AB67770005DC6B0 /* unicode-latex-dictionary.plist in Resources */,
+				716EC2351AB68EFC005DC6B0 /* STIXGeneralttfBol.ttf in Resources */,
+				716EC2371AB68EFC005DC6B0 /* STIXGeneralttfItalic.ttf in Resources */,
+				716EC23D1AB68EFC005DC6B0 /* STIXttfSiz2Sym.ttf in Resources */,
 				716EC2141AB67FBB005DC6B0 /* InputSymbolTranslation.xml in Resources */,
+				716EC2491AB68F66005DC6B0 /* STIXGeneral-Regular.otf in Resources */,
 				716EC1161AB67316005DC6B0 /* LaunchScreen.xib in Resources */,
+				716EC23B1AB68EFC005DC6B0 /* STIXSizeTwoSym-Regular.otf in Resources */,
+				716EC2461AB68F66005DC6B0 /* STIXGeneral-Bold.otf in Resources */,
+				716EC23F1AB68EFC005DC6B0 /* STIXttfSiz4Sym.ttf in Resources */,
+				716EC2361AB68EFC005DC6B0 /* STIXGeneralttfBolIta.ttf in Resources */,
 				716EC1131AB67316005DC6B0 /* Images.xcassets in Resources */,
 				716EC1751AB67941005DC6B0 /* MacroCharLookupFile.plist in Resources */,
 			);
@@ -560,6 +653,7 @@
 				716EC2171AB67FBB005DC6B0 /* LayoutTree.cpp in Sources */,
 				716EC1471AB677F9005DC6B0 /* EQDataSourceState.m in Sources */,
 				716EC1C91AB67E8B005DC6B0 /* NSString+DDXML.m in Sources */,
+				716EC2271AB6870B005DC6B0 /* ConvertMathToImage.m in Sources */,
 				716EC1731AB67941005DC6B0 /* EQTextPosition.m in Sources */,
 				716EC2191AB67FBB005DC6B0 /* Manager.cpp in Sources */,
 				716EC21E1AB67FBB005DC6B0 /* ParseTree3.cpp in Sources */,
