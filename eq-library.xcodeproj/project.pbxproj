@@ -312,12 +312,12 @@
 		716EC1671AB678D1005DC6B0 /* EQ Render Data */ = {
 			isa = PBXGroup;
 			children = (
-				716EC14F1AB678CA005DC6B0 /* EQRenderBracers.h */,
-				716EC1501AB678CA005DC6B0 /* EQRenderBracers.m */,
 				716EC1511AB678CA005DC6B0 /* EQRenderData.h */,
 				716EC1521AB678CA005DC6B0 /* EQRenderData.m */,
 				716EC1531AB678CA005DC6B0 /* EQRenderFracStem.h */,
 				716EC1541AB678CA005DC6B0 /* EQRenderFracStem.m */,
+				716EC14F1AB678CA005DC6B0 /* EQRenderBracers.h */,
+				716EC1501AB678CA005DC6B0 /* EQRenderBracers.m */,
 				716EC1551AB678CA005DC6B0 /* EQRenderLayout.h */,
 				716EC1561AB678CA005DC6B0 /* EQRenderLayout.m */,
 				716EC1571AB678CA005DC6B0 /* EQRenderMatrixRowStem.h */,
