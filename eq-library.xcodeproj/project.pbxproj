@@ -80,6 +80,7 @@
 		716EC2471AB68F66005DC6B0 /* STIXGeneral-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 716EC2431AB68F66005DC6B0 /* STIXGeneral-BoldItalic.otf */; };
 		716EC2481AB68F66005DC6B0 /* STIXGeneral-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 716EC2441AB68F66005DC6B0 /* STIXGeneral-Italic.otf */; };
 		716EC2491AB68F66005DC6B0 /* STIXGeneral-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 716EC2451AB68F66005DC6B0 /* STIXGeneral-Regular.otf */; };
+		716EC24F1AB69B65005DC6B0 /* RenderMathInPDF.m in Sources */ = {isa = PBXBuildFile; fileRef = 716EC24E1AB69B65005DC6B0 /* RenderMathInPDF.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -216,6 +217,8 @@
 		716EC2431AB68F66005DC6B0 /* STIXGeneral-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "STIXGeneral-BoldItalic.otf"; sourceTree = "<group>"; };
 		716EC2441AB68F66005DC6B0 /* STIXGeneral-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "STIXGeneral-Italic.otf"; sourceTree = "<group>"; };
 		716EC2451AB68F66005DC6B0 /* STIXGeneral-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "STIXGeneral-Regular.otf"; sourceTree = "<group>"; };
+		716EC24D1AB69B65005DC6B0 /* RenderMathInPDF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RenderMathInPDF.h; sourceTree = "<group>"; };
+		716EC24E1AB69B65005DC6B0 /* RenderMathInPDF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RenderMathInPDF.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -272,6 +275,8 @@
 				716EC2231AB680D6005DC6B0 /* ConvertBlahtex.mm */,
 				716EC2251AB6870B005DC6B0 /* ConvertMathToImage.h */,
 				716EC2261AB6870B005DC6B0 /* ConvertMathToImage.m */,
+				716EC24D1AB69B65005DC6B0 /* RenderMathInPDF.h */,
+				716EC24E1AB69B65005DC6B0 /* RenderMathInPDF.m */,
 				716EC2401AB68F08005DC6B0 /* STIX Fonts */,
 				716EC1391AB6777A005DC6B0 /* XML Import Classes */,
 				716EC14D1AB67801005DC6B0 /* EQ Render Views */,
@@ -666,6 +671,7 @@
 				716EC1661AB678CA005DC6B0 /* EQRenderStretchyBracers.m in Sources */,
 				716EC1621AB678CA005DC6B0 /* EQRenderLayout.m in Sources */,
 				716EC1381AB67770005DC6B0 /* UnicodeToLaTeXDictionary.m in Sources */,
+				716EC24F1AB69B65005DC6B0 /* RenderMathInPDF.m in Sources */,
 				716EC1741AB67941005DC6B0 /* EQTextRange.m in Sources */,
 				716EC1481AB677F9005DC6B0 /* EQRenderEquation.m in Sources */,
 				716EC21D1AB67FBB005DC6B0 /* ParseTree2.cpp in Sources */,

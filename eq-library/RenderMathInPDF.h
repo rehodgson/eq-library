@@ -1,9 +1,9 @@
 //
-//  ConvertMathToImage.h
-//  EQ Writer 2
+//  RenderMathInPDF.h
+//  eq-library
 //
-//  Created by Raymond Hodgson on 11/4/14.
-//  Copyright (c) 2014-2015 Raymond Hodgson. All rights reserved.
+//  Created by Raymond Hodgson on 03/16/15.
+//  Copyright (c) 2015 Raymond Hodgson. All rights reserved.
 /*
 
  Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
@@ -17,20 +17,12 @@
  */
 
 #import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>
+#import <CoreGraphics/CoreGraphics.h>
 
-// This class is included partially as a demonstration/example.
-// It should handle most use cases but you can tweak the code as needed.
+@interface RenderMathInPDF : NSObject
 
-@interface ConvertMathToImage : NSObject
-
-+ (UIImage *)convertTeXMathToPNG: (NSString *)mathStr;
-+ (UIImage *)convertMathMLToPNG: (NSString *)mathStr;
-
-+ (BOOL)isInlineMath: (NSString *)inputStr;
-+ (BOOL)isInlineMathML: (NSString *)inputStr;
-
-+ (BOOL)isMathML: (NSString *)inputStr;
-+ (BOOL)mathIsEmpty: (NSString *)mathStr;
+// An example method that should be adapted to your needs rather than included as-is.
+// See the comments in the example code for more information about some of the settings.
++ (void)drawTeXStr: (NSString *)texStr isInline: (BOOL)isInline atPoint: (CGPoint)drawOrigin;
 
 @end

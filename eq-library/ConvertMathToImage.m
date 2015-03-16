@@ -24,11 +24,15 @@
 
 @implementation ConvertMathToImage
 
+// This method handles conversion of TeX to PNG via MathML.
+// If you don't use TeX, don't include it or the related classes in your code base.
 + (UIImage *)convertTeXMathToPNG: (NSString *)mathStr
 {
     if ([self mathIsEmpty:mathStr])
         return nil;
 
+    // Attempts to parse for inline math delimiters and adjust the size of the PNG accordingly, but is not "true" inline math.
+    // Safe to adjust the code as needed here.
     BOOL mathIsInline = [self isInlineMath:mathStr];
     NSString *convertedMathML = [ConvertBlahtex convertTexToMML:mathStr isInline:mathIsInline];
     if (convertedMathML.length == 0)
@@ -39,9 +43,13 @@
 
 + (UIImage *)convertMathMLToPNG: (NSString *)mathStr
 {
+    // Checks for empty math equations (which may not be important to you).
     if ([self mathIsEmpty:mathStr])
         return nil;
 
+    // Parses the mathML string to see if it is an inline equation.
+    // Will adjust the size of the PNG accordingly, but is not "true" inline math.
+    // Safe to adjust the code as needed here.
     BOOL mathIsInline = [self isInlineMathML:mathStr];
 
     return [self convertMathMLToPNG:mathStr isInline:mathIsInline];
@@ -50,14 +58,26 @@
 
 + (UIImage *)convertMathMLToPNG: (NSString *)mathMLStr isInline: (BOOL)mathIsInline
 {
+    // Creates a datasource that parses the XML string and loads it into a model object that can be rendered into draw commands.
     EquationViewDataSource *newDataSource = [EQXMLImporter populateDataSourceWithXMLString:mathMLStr];
+
+    // Creates a class that can read the internal model object and draw the math in a CoreGraphics context.
     EQRenderEquation *newEquationData = [newDataSource buildRenderEquation];
+
+    // This tells the class not to use the included TTF fonts.
     newEquationData.usePDFMode = NO;
+
+    // This tells the class that you are drawing in an iOS graphics context and need to flip the display.
     newEquationData.shouldFlipContext = YES;
 
     // May make this user configurable.
+    // This just tells the math render class to not draw any background color.
     BOOL useTransparency = YES;
 
+    // The math is laid out before it is actually drawn in the context.
+    // It currently doesn't handle "true" inline math but scales the display down and makes some adjustment to layout.
+    // If you don't draw inline math, you can just ignore this.
+    // If you don't like the result, you can tweak it somewhat.
     CGSize scaledSize;
     CGFloat adjustY = 0.0;
     CGFloat adjustX = 0.0;
@@ -81,7 +101,8 @@
     }
     else
     {
-        // Compute the size needed for the new image.
+        // This is the default display equation layout.
+        // You need to compute the size of the math to ensure it sizes relatively close without clipping.
         newEquationData.pdfScale = 1.0;
         [newEquationData layoutEquationLines];
 
@@ -93,6 +114,7 @@
 
     CGRect drawRect = CGRectMake(-20.0 + adjustX, -45.0 + adjustY, scaledSize.width, scaledSize.height);
 
+    // You need to create a UIGraphics context to draw in before calling the method to draw the equation.
     UIGraphicsBeginImageContextWithOptions(scaledSize, !useTransparency, 0.0);
     CGContextRef context = UIGraphicsGetCurrentContext();
     // Return if unable to create the context for some reason.
@@ -121,6 +143,8 @@
     //pop the fill color
     CGContextRestoreGState(context);
 
+    // This is the method that actually draws the equation.
+    // It requires some sort of graphics context to draw in.
     [newEquationData drawEquationLinesInRect:drawRect];
 
     UIImage *newImage = UIGraphicsGetImageFromCurrentImageContext();
