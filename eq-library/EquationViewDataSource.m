@@ -565,7 +565,7 @@ CGFloat const kDEFAULT_LABEL_SIZE = 24.0;
 {
     // For now, assume all text is single-styled.
     // Can expand this once we have more rendering in place.
-    return @{ UITextInputTextFontKey : [UIFont fontWithName:kDEFAULT_LABEL_FONT size:kDEFAULT_LABEL_SIZE] };
+    return @{ NSFontAttributeName : [UIFont fontWithName:kDEFAULT_LABEL_FONT size:kDEFAULT_LABEL_SIZE] };
 }
 
 - (void)unmarkText
