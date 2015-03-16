@@ -14,6 +14,55 @@
 		716EC1131AB67316005DC6B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 716EC1121AB67316005DC6B0 /* Images.xcassets */; };
 		716EC1161AB67316005DC6B0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 716EC1141AB67316005DC6B0 /* LaunchScreen.xib */; };
 		716EC1221AB67316005DC6B0 /* eq_libraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 716EC1211AB67316005DC6B0 /* eq_libraryTests.m */; };
+		716EC1341AB67770005DC6B0 /* EQParsedLeaf.m in Sources */ = {isa = PBXBuildFile; fileRef = 716EC12C1AB67770005DC6B0 /* EQParsedLeaf.m */; };
+		716EC1351AB67770005DC6B0 /* EQXMLConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 716EC12E1AB67770005DC6B0 /* EQXMLConstants.m */; };
+		716EC1361AB67770005DC6B0 /* EQXMLImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 716EC1301AB67770005DC6B0 /* EQXMLImporter.m */; };
+		716EC1371AB67770005DC6B0 /* unicode-latex-dictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 716EC1311AB67770005DC6B0 /* unicode-latex-dictionary.plist */; };
+		716EC1381AB67770005DC6B0 /* UnicodeToLaTeXDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 716EC1331AB67770005DC6B0 /* UnicodeToLaTeXDictionary.m */; };
+		716EC1471AB677F9005DC6B0 /* EQDataSourceState.m in Sources */ = {isa = PBXBuildFile; fileRef = 716EC13B1AB677F9005DC6B0 /* EQDataSourceState.m */; };
+		716EC1481AB677F9005DC6B0 /* EQRenderEquation.m in Sources */ = {isa = PBXBuildFile; fileRef = 716EC13D1AB677F9005DC6B0 /* EQRenderEquation.m */; };
+		716EC1491AB677F9005DC6B0 /* EQRenderTypesetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 716EC13F1AB677F9005DC6B0 /* EQRenderTypesetter.m */; };
+		716EC14A1AB677F9005DC6B0 /* EQStyleConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 716EC1411AB677F9005DC6B0 /* EQStyleConstants.m */; };
+		716EC14B1AB677F9005DC6B0 /* EquationViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 716EC1431AB677F9005DC6B0 /* EquationViewDataSource.m */; };
+		716EC14C1AB677F9005DC6B0 /* EQUserDefaultConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 716EC1461AB677F9005DC6B0 /* EQUserDefaultConstants.m */; };
+		716EC15F1AB678CA005DC6B0 /* EQRenderBracers.m in Sources */ = {isa = PBXBuildFile; fileRef = 716EC1501AB678CA005DC6B0 /* EQRenderBracers.m */; };
+		716EC1601AB678CA005DC6B0 /* EQRenderData.m in Sources */ = {isa = PBXBuildFile; fileRef = 716EC1521AB678CA005DC6B0 /* EQRenderData.m */; };
+		716EC1611AB678CA005DC6B0 /* EQRenderFracStem.m in Sources */ = {isa = PBXBuildFile; fileRef = 716EC1541AB678CA005DC6B0 /* EQRenderFracStem.m */; };
+		716EC1621AB678CA005DC6B0 /* EQRenderLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 716EC1561AB678CA005DC6B0 /* EQRenderLayout.m */; };
+		716EC1631AB678CA005DC6B0 /* EQRenderMatrixRowStem.m in Sources */ = {isa = PBXBuildFile; fileRef = 716EC1581AB678CA005DC6B0 /* EQRenderMatrixRowStem.m */; };
+		716EC1641AB678CA005DC6B0 /* EQRenderMatrixStem.m in Sources */ = {isa = PBXBuildFile; fileRef = 716EC15A1AB678CA005DC6B0 /* EQRenderMatrixStem.m */; };
+		716EC1651AB678CA005DC6B0 /* EQRenderStem.m in Sources */ = {isa = PBXBuildFile; fileRef = 716EC15C1AB678CA005DC6B0 /* EQRenderStem.m */; };
+		716EC1661AB678CA005DC6B0 /* EQRenderStretchyBracers.m in Sources */ = {isa = PBXBuildFile; fileRef = 716EC15E1AB678CA005DC6B0 /* EQRenderStretchyBracers.m */; };
+		716EC1711AB67941005DC6B0 /* EQInputData.m in Sources */ = {isa = PBXBuildFile; fileRef = 716EC1691AB67941005DC6B0 /* EQInputData.m */; };
+		716EC1721AB67941005DC6B0 /* EQRenderFontDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 716EC16B1AB67941005DC6B0 /* EQRenderFontDictionary.m */; };
+		716EC1731AB67941005DC6B0 /* EQTextPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 716EC16D1AB67941005DC6B0 /* EQTextPosition.m */; };
+		716EC1741AB67941005DC6B0 /* EQTextRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 716EC16F1AB67941005DC6B0 /* EQTextRange.m */; };
+		716EC1751AB67941005DC6B0 /* MacroCharLookupFile.plist in Resources */ = {isa = PBXBuildFile; fileRef = 716EC1701AB67941005DC6B0 /* MacroCharLookupFile.plist */; };
+		716EC1AE1AB67A8E005DC6B0 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 716EC1AD1AB67A8E005DC6B0 /* libxml2.dylib */; };
+		716EC1B11AB67AF6005DC6B0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716EC1B01AB67AF6005DC6B0 /* CoreGraphics.framework */; };
+		716EC1B31AB67B07005DC6B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716EC1B21AB67B07005DC6B0 /* Foundation.framework */; };
+		716EC1B51AB67B18005DC6B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716EC1B41AB67B18005DC6B0 /* UIKit.framework */; };
+		716EC1B71AB67C01005DC6B0 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716EC1B61AB67C01005DC6B0 /* CoreText.framework */; };
+		716EC1C81AB67E8B005DC6B0 /* DDXMLElementAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 716EC1BB1AB67E8B005DC6B0 /* DDXMLElementAdditions.m */; };
+		716EC1C91AB67E8B005DC6B0 /* NSString+DDXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 716EC1BE1AB67E8B005DC6B0 /* NSString+DDXML.m */; };
+		716EC1CA1AB67E8B005DC6B0 /* DDXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 716EC1C11AB67E8B005DC6B0 /* DDXMLDocument.m */; };
+		716EC1CB1AB67E8B005DC6B0 /* DDXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 716EC1C31AB67E8B005DC6B0 /* DDXMLElement.m */; };
+		716EC1CC1AB67E8B005DC6B0 /* DDXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 716EC1C51AB67E8B005DC6B0 /* DDXMLNode.m */; };
+		716EC2121AB67FBB005DC6B0 /* InputSymbolTranslation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 716EC1F81AB67FBB005DC6B0 /* InputSymbolTranslation.cpp */; };
+		716EC2141AB67FBB005DC6B0 /* InputSymbolTranslation.xml in Resources */ = {isa = PBXBuildFile; fileRef = 716EC1FB1AB67FBB005DC6B0 /* InputSymbolTranslation.xml */; };
+		716EC2151AB67FBB005DC6B0 /* Interface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 716EC1FC1AB67FBB005DC6B0 /* Interface.cpp */; };
+		716EC2161AB67FBB005DC6B0 /* ISTtoCpp.xslt in Resources */ = {isa = PBXBuildFile; fileRef = 716EC1FE1AB67FBB005DC6B0 /* ISTtoCpp.xslt */; };
+		716EC2171AB67FBB005DC6B0 /* LayoutTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 716EC1FF1AB67FBB005DC6B0 /* LayoutTree.cpp */; };
+		716EC2181AB67FBB005DC6B0 /* MacroProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 716EC2011AB67FBB005DC6B0 /* MacroProcessor.cpp */; };
+		716EC2191AB67FBB005DC6B0 /* Manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 716EC2031AB67FBB005DC6B0 /* Manager.cpp */; };
+		716EC21A1AB67FBB005DC6B0 /* MathmlNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 716EC2051AB67FBB005DC6B0 /* MathmlNode.cpp */; };
+		716EC21B1AB67FBB005DC6B0 /* Parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 716EC2081AB67FBB005DC6B0 /* Parser.cpp */; };
+		716EC21C1AB67FBB005DC6B0 /* ParseTree1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 716EC20B1AB67FBB005DC6B0 /* ParseTree1.cpp */; };
+		716EC21D1AB67FBB005DC6B0 /* ParseTree2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 716EC20C1AB67FBB005DC6B0 /* ParseTree2.cpp */; };
+		716EC21E1AB67FBB005DC6B0 /* ParseTree3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 716EC20D1AB67FBB005DC6B0 /* ParseTree3.cpp */; };
+		716EC21F1AB67FBB005DC6B0 /* Token.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 716EC20E1AB67FBB005DC6B0 /* Token.cpp */; };
+		716EC2201AB67FBB005DC6B0 /* XmlEncode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 716EC2101AB67FBB005DC6B0 /* XmlEncode.cpp */; };
+		716EC2241AB680D6005DC6B0 /* ConvertBlahtex.mm in Sources */ = {isa = PBXBuildFile; fileRef = 716EC2231AB680D6005DC6B0 /* ConvertBlahtex.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +89,98 @@
 		716EC11B1AB67316005DC6B0 /* eq-libraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "eq-libraryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		716EC1201AB67316005DC6B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		716EC1211AB67316005DC6B0 /* eq_libraryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eq_libraryTests.m; sourceTree = "<group>"; };
+		716EC12B1AB67770005DC6B0 /* EQParsedLeaf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EQParsedLeaf.h; sourceTree = "<group>"; };
+		716EC12C1AB67770005DC6B0 /* EQParsedLeaf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EQParsedLeaf.m; sourceTree = "<group>"; };
+		716EC12D1AB67770005DC6B0 /* EQXMLConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EQXMLConstants.h; sourceTree = "<group>"; };
+		716EC12E1AB67770005DC6B0 /* EQXMLConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EQXMLConstants.m; sourceTree = "<group>"; };
+		716EC12F1AB67770005DC6B0 /* EQXMLImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EQXMLImporter.h; sourceTree = "<group>"; };
+		716EC1301AB67770005DC6B0 /* EQXMLImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EQXMLImporter.m; sourceTree = "<group>"; };
+		716EC1311AB67770005DC6B0 /* unicode-latex-dictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "unicode-latex-dictionary.plist"; sourceTree = "<group>"; };
+		716EC1321AB67770005DC6B0 /* UnicodeToLaTeXDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnicodeToLaTeXDictionary.h; sourceTree = "<group>"; };
+		716EC1331AB67770005DC6B0 /* UnicodeToLaTeXDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnicodeToLaTeXDictionary.m; sourceTree = "<group>"; };
+		716EC13A1AB677F9005DC6B0 /* EQDataSourceState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EQDataSourceState.h; sourceTree = "<group>"; };
+		716EC13B1AB677F9005DC6B0 /* EQDataSourceState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EQDataSourceState.m; sourceTree = "<group>"; };
+		716EC13C1AB677F9005DC6B0 /* EQRenderEquation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EQRenderEquation.h; sourceTree = "<group>"; };
+		716EC13D1AB677F9005DC6B0 /* EQRenderEquation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EQRenderEquation.m; sourceTree = "<group>"; };
+		716EC13E1AB677F9005DC6B0 /* EQRenderTypesetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EQRenderTypesetter.h; sourceTree = "<group>"; };
+		716EC13F1AB677F9005DC6B0 /* EQRenderTypesetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EQRenderTypesetter.m; sourceTree = "<group>"; };
+		716EC1401AB677F9005DC6B0 /* EQStyleConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EQStyleConstants.h; sourceTree = "<group>"; };
+		716EC1411AB677F9005DC6B0 /* EQStyleConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EQStyleConstants.m; sourceTree = "<group>"; };
+		716EC1421AB677F9005DC6B0 /* EquationViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquationViewDataSource.h; sourceTree = "<group>"; };
+		716EC1431AB677F9005DC6B0 /* EquationViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EquationViewDataSource.m; sourceTree = "<group>"; };
+		716EC1441AB677F9005DC6B0 /* EquationViewDataSourceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquationViewDataSourceProtocol.h; sourceTree = "<group>"; };
+		716EC1451AB677F9005DC6B0 /* EQUserDefaultConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EQUserDefaultConstants.h; sourceTree = "<group>"; };
+		716EC1461AB677F9005DC6B0 /* EQUserDefaultConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EQUserDefaultConstants.m; sourceTree = "<group>"; };
+		716EC14F1AB678CA005DC6B0 /* EQRenderBracers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EQRenderBracers.h; sourceTree = "<group>"; };
+		716EC1501AB678CA005DC6B0 /* EQRenderBracers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EQRenderBracers.m; sourceTree = "<group>"; };
+		716EC1511AB678CA005DC6B0 /* EQRenderData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EQRenderData.h; sourceTree = "<group>"; };
+		716EC1521AB678CA005DC6B0 /* EQRenderData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EQRenderData.m; sourceTree = "<group>"; };
+		716EC1531AB678CA005DC6B0 /* EQRenderFracStem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EQRenderFracStem.h; sourceTree = "<group>"; };
+		716EC1541AB678CA005DC6B0 /* EQRenderFracStem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EQRenderFracStem.m; sourceTree = "<group>"; };
+		716EC1551AB678CA005DC6B0 /* EQRenderLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EQRenderLayout.h; sourceTree = "<group>"; };
+		716EC1561AB678CA005DC6B0 /* EQRenderLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EQRenderLayout.m; sourceTree = "<group>"; };
+		716EC1571AB678CA005DC6B0 /* EQRenderMatrixRowStem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EQRenderMatrixRowStem.h; sourceTree = "<group>"; };
+		716EC1581AB678CA005DC6B0 /* EQRenderMatrixRowStem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EQRenderMatrixRowStem.m; sourceTree = "<group>"; };
+		716EC1591AB678CA005DC6B0 /* EQRenderMatrixStem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EQRenderMatrixStem.h; sourceTree = "<group>"; };
+		716EC15A1AB678CA005DC6B0 /* EQRenderMatrixStem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EQRenderMatrixStem.m; sourceTree = "<group>"; };
+		716EC15B1AB678CA005DC6B0 /* EQRenderStem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EQRenderStem.h; sourceTree = "<group>"; };
+		716EC15C1AB678CA005DC6B0 /* EQRenderStem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EQRenderStem.m; sourceTree = "<group>"; };
+		716EC15D1AB678CA005DC6B0 /* EQRenderStretchyBracers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EQRenderStretchyBracers.h; sourceTree = "<group>"; };
+		716EC15E1AB678CA005DC6B0 /* EQRenderStretchyBracers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EQRenderStretchyBracers.m; sourceTree = "<group>"; };
+		716EC1681AB67941005DC6B0 /* EQInputData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EQInputData.h; sourceTree = "<group>"; };
+		716EC1691AB67941005DC6B0 /* EQInputData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EQInputData.m; sourceTree = "<group>"; };
+		716EC16A1AB67941005DC6B0 /* EQRenderFontDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EQRenderFontDictionary.h; sourceTree = "<group>"; };
+		716EC16B1AB67941005DC6B0 /* EQRenderFontDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EQRenderFontDictionary.m; sourceTree = "<group>"; };
+		716EC16C1AB67941005DC6B0 /* EQTextPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EQTextPosition.h; sourceTree = "<group>"; };
+		716EC16D1AB67941005DC6B0 /* EQTextPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EQTextPosition.m; sourceTree = "<group>"; };
+		716EC16E1AB67941005DC6B0 /* EQTextRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EQTextRange.h; sourceTree = "<group>"; };
+		716EC16F1AB67941005DC6B0 /* EQTextRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EQTextRange.m; sourceTree = "<group>"; };
+		716EC1701AB67941005DC6B0 /* MacroCharLookupFile.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MacroCharLookupFile.plist; sourceTree = "<group>"; };
+		716EC1AD1AB67A8E005DC6B0 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		716EC1B01AB67AF6005DC6B0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		716EC1B21AB67B07005DC6B0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		716EC1B41AB67B18005DC6B0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		716EC1B61AB67C01005DC6B0 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		716EC1BA1AB67E8B005DC6B0 /* DDXMLElementAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLElementAdditions.h; sourceTree = "<group>"; };
+		716EC1BB1AB67E8B005DC6B0 /* DDXMLElementAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLElementAdditions.m; sourceTree = "<group>"; };
+		716EC1BD1AB67E8B005DC6B0 /* NSString+DDXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DDXML.h"; sourceTree = "<group>"; };
+		716EC1BE1AB67E8B005DC6B0 /* NSString+DDXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DDXML.m"; sourceTree = "<group>"; };
+		716EC1BF1AB67E8B005DC6B0 /* DDXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXML.h; sourceTree = "<group>"; };
+		716EC1C01AB67E8B005DC6B0 /* DDXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLDocument.h; sourceTree = "<group>"; };
+		716EC1C11AB67E8B005DC6B0 /* DDXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLDocument.m; sourceTree = "<group>"; };
+		716EC1C21AB67E8B005DC6B0 /* DDXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLElement.h; sourceTree = "<group>"; };
+		716EC1C31AB67E8B005DC6B0 /* DDXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLElement.m; sourceTree = "<group>"; };
+		716EC1C41AB67E8B005DC6B0 /* DDXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLNode.h; sourceTree = "<group>"; };
+		716EC1C51AB67E8B005DC6B0 /* DDXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLNode.m; sourceTree = "<group>"; };
+		716EC1C71AB67E8B005DC6B0 /* DDXMLPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLPrivate.h; sourceTree = "<group>"; };
+		716EC1F81AB67FBB005DC6B0 /* InputSymbolTranslation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InputSymbolTranslation.cpp; sourceTree = "<group>"; };
+		716EC1F91AB67FBB005DC6B0 /* InputSymbolTranslation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputSymbolTranslation.h; sourceTree = "<group>"; };
+		716EC1FA1AB67FBB005DC6B0 /* InputSymbolTranslation.inc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.pascal; path = InputSymbolTranslation.inc; sourceTree = "<group>"; };
+		716EC1FB1AB67FBB005DC6B0 /* InputSymbolTranslation.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = InputSymbolTranslation.xml; sourceTree = "<group>"; };
+		716EC1FC1AB67FBB005DC6B0 /* Interface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Interface.cpp; sourceTree = "<group>"; };
+		716EC1FD1AB67FBB005DC6B0 /* Interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Interface.h; sourceTree = "<group>"; };
+		716EC1FE1AB67FBB005DC6B0 /* ISTtoCpp.xslt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ISTtoCpp.xslt; sourceTree = "<group>"; };
+		716EC1FF1AB67FBB005DC6B0 /* LayoutTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LayoutTree.cpp; sourceTree = "<group>"; };
+		716EC2001AB67FBB005DC6B0 /* LayoutTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutTree.h; sourceTree = "<group>"; };
+		716EC2011AB67FBB005DC6B0 /* MacroProcessor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MacroProcessor.cpp; sourceTree = "<group>"; };
+		716EC2021AB67FBB005DC6B0 /* MacroProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroProcessor.h; sourceTree = "<group>"; };
+		716EC2031AB67FBB005DC6B0 /* Manager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Manager.cpp; sourceTree = "<group>"; };
+		716EC2041AB67FBB005DC6B0 /* Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Manager.h; sourceTree = "<group>"; };
+		716EC2051AB67FBB005DC6B0 /* MathmlNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MathmlNode.cpp; sourceTree = "<group>"; };
+		716EC2061AB67FBB005DC6B0 /* MathmlNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathmlNode.h; sourceTree = "<group>"; };
+		716EC2071AB67FBB005DC6B0 /* Misc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Misc.h; sourceTree = "<group>"; };
+		716EC2081AB67FBB005DC6B0 /* Parser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Parser.cpp; sourceTree = "<group>"; };
+		716EC2091AB67FBB005DC6B0 /* Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parser.h; sourceTree = "<group>"; };
+		716EC20A1AB67FBB005DC6B0 /* ParseTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParseTree.h; sourceTree = "<group>"; };
+		716EC20B1AB67FBB005DC6B0 /* ParseTree1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ParseTree1.cpp; sourceTree = "<group>"; };
+		716EC20C1AB67FBB005DC6B0 /* ParseTree2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ParseTree2.cpp; sourceTree = "<group>"; };
+		716EC20D1AB67FBB005DC6B0 /* ParseTree3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ParseTree3.cpp; sourceTree = "<group>"; };
+		716EC20E1AB67FBB005DC6B0 /* Token.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Token.cpp; sourceTree = "<group>"; };
+		716EC20F1AB67FBB005DC6B0 /* Token.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Token.h; sourceTree = "<group>"; };
+		716EC2101AB67FBB005DC6B0 /* XmlEncode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XmlEncode.cpp; sourceTree = "<group>"; };
+		716EC2111AB67FBB005DC6B0 /* XmlEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmlEncode.h; sourceTree = "<group>"; };
+		716EC2221AB680D6005DC6B0 /* ConvertBlahtex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConvertBlahtex.h; sourceTree = "<group>"; };
+		716EC2231AB680D6005DC6B0 /* ConvertBlahtex.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ConvertBlahtex.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +188,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				716EC1B71AB67C01005DC6B0 /* CoreText.framework in Frameworks */,
+				716EC1B51AB67B18005DC6B0 /* UIKit.framework in Frameworks */,
+				716EC1B31AB67B07005DC6B0 /* Foundation.framework in Frameworks */,
+				716EC1B11AB67AF6005DC6B0 /* CoreGraphics.framework in Frameworks */,
+				716EC1AE1AB67A8E005DC6B0 /* libxml2.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +211,7 @@
 			children = (
 				716EC1041AB67316005DC6B0 /* eq-library */,
 				716EC11E1AB67316005DC6B0 /* eq-libraryTests */,
+				716EC1AF1AB67AAD005DC6B0 /* Frameworks */,
 				716EC1031AB67316005DC6B0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -81,11 +228,18 @@
 		716EC1041AB67316005DC6B0 /* eq-library */ = {
 			isa = PBXGroup;
 			children = (
+				716EC10F1AB67316005DC6B0 /* Main.storyboard */,
 				716EC1091AB67316005DC6B0 /* AppDelegate.h */,
 				716EC10A1AB67316005DC6B0 /* AppDelegate.m */,
 				716EC10C1AB67316005DC6B0 /* ViewController.h */,
 				716EC10D1AB67316005DC6B0 /* ViewController.m */,
-				716EC10F1AB67316005DC6B0 /* Main.storyboard */,
+				716EC2221AB680D6005DC6B0 /* ConvertBlahtex.h */,
+				716EC2231AB680D6005DC6B0 /* ConvertBlahtex.mm */,
+				716EC1391AB6777A005DC6B0 /* XML Import Classes */,
+				716EC14D1AB67801005DC6B0 /* EQ Render Views */,
+				716EC1671AB678D1005DC6B0 /* EQ Render Data */,
+				716EC1761AB67949005DC6B0 /* Render Utils */,
+				716EC2211AB67FCB005DC6B0 /* External Libraries */,
 				716EC1121AB67316005DC6B0 /* Images.xcassets */,
 				716EC1141AB67316005DC6B0 /* LaunchScreen.xib */,
 				716EC1051AB67316005DC6B0 /* Supporting Files */,
@@ -117,6 +271,180 @@
 				716EC1201AB67316005DC6B0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		716EC1391AB6777A005DC6B0 /* XML Import Classes */ = {
+			isa = PBXGroup;
+			children = (
+				716EC12B1AB67770005DC6B0 /* EQParsedLeaf.h */,
+				716EC12C1AB67770005DC6B0 /* EQParsedLeaf.m */,
+				716EC12D1AB67770005DC6B0 /* EQXMLConstants.h */,
+				716EC12E1AB67770005DC6B0 /* EQXMLConstants.m */,
+				716EC12F1AB67770005DC6B0 /* EQXMLImporter.h */,
+				716EC1301AB67770005DC6B0 /* EQXMLImporter.m */,
+				716EC1311AB67770005DC6B0 /* unicode-latex-dictionary.plist */,
+				716EC1321AB67770005DC6B0 /* UnicodeToLaTeXDictionary.h */,
+				716EC1331AB67770005DC6B0 /* UnicodeToLaTeXDictionary.m */,
+			);
+			name = "XML Import Classes";
+			sourceTree = "<group>";
+		};
+		716EC14D1AB67801005DC6B0 /* EQ Render Views */ = {
+			isa = PBXGroup;
+			children = (
+				716EC13C1AB677F9005DC6B0 /* EQRenderEquation.h */,
+				716EC13D1AB677F9005DC6B0 /* EQRenderEquation.m */,
+				716EC13E1AB677F9005DC6B0 /* EQRenderTypesetter.h */,
+				716EC13F1AB677F9005DC6B0 /* EQRenderTypesetter.m */,
+				716EC1421AB677F9005DC6B0 /* EquationViewDataSource.h */,
+				716EC1431AB677F9005DC6B0 /* EquationViewDataSource.m */,
+				716EC1441AB677F9005DC6B0 /* EquationViewDataSourceProtocol.h */,
+				716EC13A1AB677F9005DC6B0 /* EQDataSourceState.h */,
+				716EC13B1AB677F9005DC6B0 /* EQDataSourceState.m */,
+				716EC1401AB677F9005DC6B0 /* EQStyleConstants.h */,
+				716EC1411AB677F9005DC6B0 /* EQStyleConstants.m */,
+				716EC1451AB677F9005DC6B0 /* EQUserDefaultConstants.h */,
+				716EC1461AB677F9005DC6B0 /* EQUserDefaultConstants.m */,
+			);
+			name = "EQ Render Views";
+			sourceTree = "<group>";
+		};
+		716EC1671AB678D1005DC6B0 /* EQ Render Data */ = {
+			isa = PBXGroup;
+			children = (
+				716EC14F1AB678CA005DC6B0 /* EQRenderBracers.h */,
+				716EC1501AB678CA005DC6B0 /* EQRenderBracers.m */,
+				716EC1511AB678CA005DC6B0 /* EQRenderData.h */,
+				716EC1521AB678CA005DC6B0 /* EQRenderData.m */,
+				716EC1531AB678CA005DC6B0 /* EQRenderFracStem.h */,
+				716EC1541AB678CA005DC6B0 /* EQRenderFracStem.m */,
+				716EC1551AB678CA005DC6B0 /* EQRenderLayout.h */,
+				716EC1561AB678CA005DC6B0 /* EQRenderLayout.m */,
+				716EC1571AB678CA005DC6B0 /* EQRenderMatrixRowStem.h */,
+				716EC1581AB678CA005DC6B0 /* EQRenderMatrixRowStem.m */,
+				716EC1591AB678CA005DC6B0 /* EQRenderMatrixStem.h */,
+				716EC15A1AB678CA005DC6B0 /* EQRenderMatrixStem.m */,
+				716EC15B1AB678CA005DC6B0 /* EQRenderStem.h */,
+				716EC15C1AB678CA005DC6B0 /* EQRenderStem.m */,
+				716EC15D1AB678CA005DC6B0 /* EQRenderStretchyBracers.h */,
+				716EC15E1AB678CA005DC6B0 /* EQRenderStretchyBracers.m */,
+			);
+			name = "EQ Render Data";
+			sourceTree = "<group>";
+		};
+		716EC1761AB67949005DC6B0 /* Render Utils */ = {
+			isa = PBXGroup;
+			children = (
+				716EC1681AB67941005DC6B0 /* EQInputData.h */,
+				716EC1691AB67941005DC6B0 /* EQInputData.m */,
+				716EC16A1AB67941005DC6B0 /* EQRenderFontDictionary.h */,
+				716EC16B1AB67941005DC6B0 /* EQRenderFontDictionary.m */,
+				716EC16C1AB67941005DC6B0 /* EQTextPosition.h */,
+				716EC16D1AB67941005DC6B0 /* EQTextPosition.m */,
+				716EC16E1AB67941005DC6B0 /* EQTextRange.h */,
+				716EC16F1AB67941005DC6B0 /* EQTextRange.m */,
+				716EC1701AB67941005DC6B0 /* MacroCharLookupFile.plist */,
+			);
+			name = "Render Utils";
+			sourceTree = "<group>";
+		};
+		716EC1AF1AB67AAD005DC6B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				716EC1B61AB67C01005DC6B0 /* CoreText.framework */,
+				716EC1B41AB67B18005DC6B0 /* UIKit.framework */,
+				716EC1B21AB67B07005DC6B0 /* Foundation.framework */,
+				716EC1B01AB67AF6005DC6B0 /* CoreGraphics.framework */,
+				716EC1AD1AB67A8E005DC6B0 /* libxml2.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		716EC1B81AB67E8B005DC6B0 /* KissXML */ = {
+			isa = PBXGroup;
+			children = (
+				716EC1B91AB67E8B005DC6B0 /* Additions */,
+				716EC1BC1AB67E8B005DC6B0 /* Categories */,
+				716EC1BF1AB67E8B005DC6B0 /* DDXML.h */,
+				716EC1C01AB67E8B005DC6B0 /* DDXMLDocument.h */,
+				716EC1C11AB67E8B005DC6B0 /* DDXMLDocument.m */,
+				716EC1C21AB67E8B005DC6B0 /* DDXMLElement.h */,
+				716EC1C31AB67E8B005DC6B0 /* DDXMLElement.m */,
+				716EC1C41AB67E8B005DC6B0 /* DDXMLNode.h */,
+				716EC1C51AB67E8B005DC6B0 /* DDXMLNode.m */,
+				716EC1C61AB67E8B005DC6B0 /* Private */,
+			);
+			name = KissXML;
+			path = KissXML/KissXML;
+			sourceTree = SOURCE_ROOT;
+		};
+		716EC1B91AB67E8B005DC6B0 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				716EC1BA1AB67E8B005DC6B0 /* DDXMLElementAdditions.h */,
+				716EC1BB1AB67E8B005DC6B0 /* DDXMLElementAdditions.m */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		716EC1BC1AB67E8B005DC6B0 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				716EC1BD1AB67E8B005DC6B0 /* NSString+DDXML.h */,
+				716EC1BE1AB67E8B005DC6B0 /* NSString+DDXML.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		716EC1C61AB67E8B005DC6B0 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				716EC1C71AB67E8B005DC6B0 /* DDXMLPrivate.h */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		716EC1F71AB67FBB005DC6B0 /* BlahtexCore */ = {
+			isa = PBXGroup;
+			children = (
+				716EC1F81AB67FBB005DC6B0 /* InputSymbolTranslation.cpp */,
+				716EC1F91AB67FBB005DC6B0 /* InputSymbolTranslation.h */,
+				716EC1FA1AB67FBB005DC6B0 /* InputSymbolTranslation.inc */,
+				716EC1FB1AB67FBB005DC6B0 /* InputSymbolTranslation.xml */,
+				716EC1FC1AB67FBB005DC6B0 /* Interface.cpp */,
+				716EC1FD1AB67FBB005DC6B0 /* Interface.h */,
+				716EC1FE1AB67FBB005DC6B0 /* ISTtoCpp.xslt */,
+				716EC1FF1AB67FBB005DC6B0 /* LayoutTree.cpp */,
+				716EC2001AB67FBB005DC6B0 /* LayoutTree.h */,
+				716EC2011AB67FBB005DC6B0 /* MacroProcessor.cpp */,
+				716EC2021AB67FBB005DC6B0 /* MacroProcessor.h */,
+				716EC2031AB67FBB005DC6B0 /* Manager.cpp */,
+				716EC2041AB67FBB005DC6B0 /* Manager.h */,
+				716EC2051AB67FBB005DC6B0 /* MathmlNode.cpp */,
+				716EC2061AB67FBB005DC6B0 /* MathmlNode.h */,
+				716EC2071AB67FBB005DC6B0 /* Misc.h */,
+				716EC2081AB67FBB005DC6B0 /* Parser.cpp */,
+				716EC2091AB67FBB005DC6B0 /* Parser.h */,
+				716EC20A1AB67FBB005DC6B0 /* ParseTree.h */,
+				716EC20B1AB67FBB005DC6B0 /* ParseTree1.cpp */,
+				716EC20C1AB67FBB005DC6B0 /* ParseTree2.cpp */,
+				716EC20D1AB67FBB005DC6B0 /* ParseTree3.cpp */,
+				716EC20E1AB67FBB005DC6B0 /* Token.cpp */,
+				716EC20F1AB67FBB005DC6B0 /* Token.h */,
+				716EC2101AB67FBB005DC6B0 /* XmlEncode.cpp */,
+				716EC2111AB67FBB005DC6B0 /* XmlEncode.h */,
+			);
+			name = BlahtexCore;
+			path = blahtexml/Source/BlahtexCore;
+			sourceTree = SOURCE_ROOT;
+		};
+		716EC2211AB67FCB005DC6B0 /* External Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				716EC1F71AB67FBB005DC6B0 /* BlahtexCore */,
+				716EC1B81AB67E8B005DC6B0 /* KissXML */,
+			);
+			name = "External Libraries";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +510,7 @@
 			knownRegions = (
 				en,
 				Base,
+				English,
 			);
 			mainGroup = 716EC0F91AB67316005DC6B0;
 			productRefGroup = 716EC1031AB67316005DC6B0 /* Products */;
@@ -199,9 +528,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				716EC2161AB67FBB005DC6B0 /* ISTtoCpp.xslt in Resources */,
 				716EC1111AB67316005DC6B0 /* Main.storyboard in Resources */,
+				716EC1371AB67770005DC6B0 /* unicode-latex-dictionary.plist in Resources */,
+				716EC2141AB67FBB005DC6B0 /* InputSymbolTranslation.xml in Resources */,
 				716EC1161AB67316005DC6B0 /* LaunchScreen.xib in Resources */,
 				716EC1131AB67316005DC6B0 /* Images.xcassets in Resources */,
+				716EC1751AB67941005DC6B0 /* MacroCharLookupFile.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +552,49 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				716EC21B1AB67FBB005DC6B0 /* Parser.cpp in Sources */,
+				716EC2151AB67FBB005DC6B0 /* Interface.cpp in Sources */,
+				716EC1631AB678CA005DC6B0 /* EQRenderMatrixRowStem.m in Sources */,
+				716EC21F1AB67FBB005DC6B0 /* Token.cpp in Sources */,
+				716EC1491AB677F9005DC6B0 /* EQRenderTypesetter.m in Sources */,
+				716EC2171AB67FBB005DC6B0 /* LayoutTree.cpp in Sources */,
+				716EC1471AB677F9005DC6B0 /* EQDataSourceState.m in Sources */,
+				716EC1C91AB67E8B005DC6B0 /* NSString+DDXML.m in Sources */,
+				716EC1731AB67941005DC6B0 /* EQTextPosition.m in Sources */,
+				716EC2191AB67FBB005DC6B0 /* Manager.cpp in Sources */,
+				716EC21E1AB67FBB005DC6B0 /* ParseTree3.cpp in Sources */,
+				716EC21A1AB67FBB005DC6B0 /* MathmlNode.cpp in Sources */,
+				716EC1351AB67770005DC6B0 /* EQXMLConstants.m in Sources */,
+				716EC1651AB678CA005DC6B0 /* EQRenderStem.m in Sources */,
+				716EC1361AB67770005DC6B0 /* EQXMLImporter.m in Sources */,
+				716EC1721AB67941005DC6B0 /* EQRenderFontDictionary.m in Sources */,
+				716EC1711AB67941005DC6B0 /* EQInputData.m in Sources */,
+				716EC1661AB678CA005DC6B0 /* EQRenderStretchyBracers.m in Sources */,
+				716EC1621AB678CA005DC6B0 /* EQRenderLayout.m in Sources */,
+				716EC1381AB67770005DC6B0 /* UnicodeToLaTeXDictionary.m in Sources */,
+				716EC1741AB67941005DC6B0 /* EQTextRange.m in Sources */,
+				716EC1481AB677F9005DC6B0 /* EQRenderEquation.m in Sources */,
+				716EC21D1AB67FBB005DC6B0 /* ParseTree2.cpp in Sources */,
+				716EC2241AB680D6005DC6B0 /* ConvertBlahtex.mm in Sources */,
+				716EC1C81AB67E8B005DC6B0 /* DDXMLElementAdditions.m in Sources */,
+				716EC2181AB67FBB005DC6B0 /* MacroProcessor.cpp in Sources */,
+				716EC2121AB67FBB005DC6B0 /* InputSymbolTranslation.cpp in Sources */,
+				716EC14A1AB677F9005DC6B0 /* EQStyleConstants.m in Sources */,
+				716EC14B1AB677F9005DC6B0 /* EquationViewDataSource.m in Sources */,
+				716EC1CA1AB67E8B005DC6B0 /* DDXMLDocument.m in Sources */,
+				716EC21C1AB67FBB005DC6B0 /* ParseTree1.cpp in Sources */,
+				716EC1611AB678CA005DC6B0 /* EQRenderFracStem.m in Sources */,
 				716EC10E1AB67316005DC6B0 /* ViewController.m in Sources */,
+				716EC1CC1AB67E8B005DC6B0 /* DDXMLNode.m in Sources */,
 				716EC10B1AB67316005DC6B0 /* AppDelegate.m in Sources */,
+				716EC2201AB67FBB005DC6B0 /* XmlEncode.cpp in Sources */,
+				716EC15F1AB678CA005DC6B0 /* EQRenderBracers.m in Sources */,
+				716EC1641AB678CA005DC6B0 /* EQRenderMatrixStem.m in Sources */,
+				716EC1341AB67770005DC6B0 /* EQParsedLeaf.m in Sources */,
+				716EC14C1AB677F9005DC6B0 /* EQUserDefaultConstants.m in Sources */,
 				716EC1081AB67316005DC6B0 /* main.m in Sources */,
+				716EC1601AB678CA005DC6B0 /* EQRenderData.m in Sources */,
+				716EC1CB1AB67E8B005DC6B0 /* DDXMLElement.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +718,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					$SDKROOT/usr/include/libxml2,
+				);
 				INFOPLIST_FILE = "eq-library/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -355,6 +734,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					$SDKROOT/usr/include/libxml2,
+				);
 				INFOPLIST_FILE = "eq-library/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -414,6 +799,7 @@
 				716EC1271AB67316005DC6B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		716EC1281AB67316005DC6B0 /* Build configuration list for PBXNativeTarget "eq-libraryTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +808,7 @@
 				716EC12A1AB67316005DC6B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
