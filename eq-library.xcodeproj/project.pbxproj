@@ -321,7 +321,7 @@
 				716EC12F1AB67770005DC6B0 /* EQXMLImporter.h */,
 				716EC1301AB67770005DC6B0 /* EQXMLImporter.m */,
 			);
-			name = "XML Import Classes";
+			path = "XML Import Classes";
 			sourceTree = "<group>";
 		};
 		716EC14D1AB67801005DC6B0 /* EQ Render Views */ = {
@@ -341,7 +341,7 @@
 				716EC1451AB677F9005DC6B0 /* EQUserDefaultConstants.h */,
 				716EC1461AB677F9005DC6B0 /* EQUserDefaultConstants.m */,
 			);
-			name = "EQ Render Views";
+			path = "EQ Render Views";
 			sourceTree = "<group>";
 		};
 		716EC1671AB678D1005DC6B0 /* EQ Render Data */ = {
@@ -364,7 +364,7 @@
 				716EC15D1AB678CA005DC6B0 /* EQRenderStretchyBracers.h */,
 				716EC15E1AB678CA005DC6B0 /* EQRenderStretchyBracers.m */,
 			);
-			name = "EQ Render Data";
+			path = "EQ Render Data";
 			sourceTree = "<group>";
 		};
 		716EC1761AB67949005DC6B0 /* Render Utils */ = {
@@ -380,7 +380,7 @@
 				716EC16F1AB67941005DC6B0 /* EQTextRange.m */,
 				716EC1701AB67941005DC6B0 /* MacroCharLookupFile.plist */,
 			);
-			name = "Render Utils";
+			path = "Render Utils";
 			sourceTree = "<group>";
 		};
 		716EC1AF1AB67AAD005DC6B0 /* Frameworks */ = {
@@ -488,7 +488,7 @@
 				716EC24A1AB68F6F005DC6B0 /* STIX Standard Fonts */,
 				716EC2411AB68F19005DC6B0 /* STIX TTF Fonts */,
 			);
-			name = "STIX Fonts";
+			path = "STIX Fonts";
 			sourceTree = "<group>";
 		};
 		716EC2411AB68F19005DC6B0 /* STIX TTF Fonts */ = {
@@ -503,7 +503,7 @@
 				716EC2321AB68EFC005DC6B0 /* STIXttfSiz3Sym.ttf */,
 				716EC2331AB68EFC005DC6B0 /* STIXttfSiz4Sym.ttf */,
 			);
-			name = "STIX TTF Fonts";
+			path = "STIX TTF Fonts";
 			sourceTree = "<group>";
 		};
 		716EC24A1AB68F6F005DC6B0 /* STIX Standard Fonts */ = {
@@ -518,7 +518,7 @@
 				716EC22F1AB68EFC005DC6B0 /* STIXSizeTwoSym-Regular.otf */,
 				716EC22C1AB68EFC005DC6B0 /* STIXSizeFourSym-Regular.otf */,
 			);
-			name = "STIX Standard Fonts";
+			path = "STIX Standard Fonts";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
