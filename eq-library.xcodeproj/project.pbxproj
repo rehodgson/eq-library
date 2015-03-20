@@ -13,7 +13,6 @@
 		716EC1111AB67316005DC6B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 716EC10F1AB67316005DC6B0 /* Main.storyboard */; };
 		716EC1131AB67316005DC6B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 716EC1121AB67316005DC6B0 /* Images.xcassets */; };
 		716EC1161AB67316005DC6B0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 716EC1141AB67316005DC6B0 /* LaunchScreen.xib */; };
-		716EC1221AB67316005DC6B0 /* eq_libraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 716EC1211AB67316005DC6B0 /* eq_libraryTests.m */; };
 		716EC1341AB67770005DC6B0 /* EQParsedLeaf.m in Sources */ = {isa = PBXBuildFile; fileRef = 716EC12C1AB67770005DC6B0 /* EQParsedLeaf.m */; };
 		716EC1351AB67770005DC6B0 /* EQXMLConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 716EC12E1AB67770005DC6B0 /* EQXMLConstants.m */; };
 		716EC1361AB67770005DC6B0 /* EQXMLImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 716EC1301AB67770005DC6B0 /* EQXMLImporter.m */; };
@@ -79,6 +78,16 @@
 		716EC2481AB68F66005DC6B0 /* STIXGeneral-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 716EC2441AB68F66005DC6B0 /* STIXGeneral-Italic.otf */; };
 		716EC2491AB68F66005DC6B0 /* STIXGeneral-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 716EC2451AB68F66005DC6B0 /* STIXGeneral-Regular.otf */; };
 		716EC24F1AB69B65005DC6B0 /* RenderMathInPDF.m in Sources */ = {isa = PBXBuildFile; fileRef = 716EC24E1AB69B65005DC6B0 /* RenderMathInPDF.m */; };
+		7179A7901ABBD69900D6DD14 /* EQRenderDataTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7179A78F1ABBD69900D6DD14 /* EQRenderDataTest.m */; };
+		7179A79B1ABBD70900D6DD14 /* EQRenderFracStemTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7179A7911ABBD70900D6DD14 /* EQRenderFracStemTest.m */; };
+		7179A79C1ABBD70900D6DD14 /* EQRenderLayoutTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7179A7921ABBD70900D6DD14 /* EQRenderLayoutTest.m */; };
+		7179A79D1ABBD70900D6DD14 /* EQRenderMatrixRowStemTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7179A7931ABBD70900D6DD14 /* EQRenderMatrixRowStemTest.m */; };
+		7179A79E1ABBD70900D6DD14 /* EQRenderMatrixStemTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7179A7941ABBD70900D6DD14 /* EQRenderMatrixStemTest.m */; };
+		7179A79F1ABBD70900D6DD14 /* EQRenderStemTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7179A7951ABBD70900D6DD14 /* EQRenderStemTest.m */; };
+		7179A7A01ABBD70900D6DD14 /* EQRenderTypesetterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7179A7961ABBD70900D6DD14 /* EQRenderTypesetterTest.m */; };
+		7179A7A11ABBD70900D6DD14 /* EQTextPositionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7179A7971ABBD70900D6DD14 /* EQTextPositionTest.m */; };
+		7179A7A21ABBD70900D6DD14 /* EQTextRangeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7179A7981ABBD70900D6DD14 /* EQTextRangeTest.m */; };
+		7179A7A31ABBD70900D6DD14 /* MockEquationViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7179A79A1ABBD70900D6DD14 /* MockEquationViewDataSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,7 +113,6 @@
 		716EC1151AB67316005DC6B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		716EC11B1AB67316005DC6B0 /* eq-libraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "eq-libraryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		716EC1201AB67316005DC6B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		716EC1211AB67316005DC6B0 /* eq_libraryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eq_libraryTests.m; sourceTree = "<group>"; };
 		716EC12B1AB67770005DC6B0 /* EQParsedLeaf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EQParsedLeaf.h; sourceTree = "<group>"; };
 		716EC12C1AB67770005DC6B0 /* EQParsedLeaf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EQParsedLeaf.m; sourceTree = "<group>"; };
 		716EC12D1AB67770005DC6B0 /* EQXMLConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EQXMLConstants.h; sourceTree = "<group>"; };
@@ -214,6 +222,17 @@
 		716EC2451AB68F66005DC6B0 /* STIXGeneral-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "STIXGeneral-Regular.otf"; sourceTree = "<group>"; };
 		716EC24D1AB69B65005DC6B0 /* RenderMathInPDF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RenderMathInPDF.h; sourceTree = "<group>"; };
 		716EC24E1AB69B65005DC6B0 /* RenderMathInPDF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RenderMathInPDF.m; sourceTree = "<group>"; };
+		7179A78F1ABBD69900D6DD14 /* EQRenderDataTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EQRenderDataTest.m; sourceTree = "<group>"; };
+		7179A7911ABBD70900D6DD14 /* EQRenderFracStemTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EQRenderFracStemTest.m; sourceTree = "<group>"; };
+		7179A7921ABBD70900D6DD14 /* EQRenderLayoutTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EQRenderLayoutTest.m; sourceTree = "<group>"; };
+		7179A7931ABBD70900D6DD14 /* EQRenderMatrixRowStemTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EQRenderMatrixRowStemTest.m; sourceTree = "<group>"; };
+		7179A7941ABBD70900D6DD14 /* EQRenderMatrixStemTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EQRenderMatrixStemTest.m; sourceTree = "<group>"; };
+		7179A7951ABBD70900D6DD14 /* EQRenderStemTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EQRenderStemTest.m; sourceTree = "<group>"; };
+		7179A7961ABBD70900D6DD14 /* EQRenderTypesetterTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EQRenderTypesetterTest.m; sourceTree = "<group>"; };
+		7179A7971ABBD70900D6DD14 /* EQTextPositionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EQTextPositionTest.m; sourceTree = "<group>"; };
+		7179A7981ABBD70900D6DD14 /* EQTextRangeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EQTextRangeTest.m; sourceTree = "<group>"; };
+		7179A7991ABBD70900D6DD14 /* MockEquationViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MockEquationViewDataSource.h; sourceTree = "<group>"; };
+		7179A79A1ABBD70900D6DD14 /* MockEquationViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MockEquationViewDataSource.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -297,7 +316,17 @@
 		716EC11E1AB67316005DC6B0 /* eq-libraryTests */ = {
 			isa = PBXGroup;
 			children = (
-				716EC1211AB67316005DC6B0 /* eq_libraryTests.m */,
+				7179A78F1ABBD69900D6DD14 /* EQRenderDataTest.m */,
+				7179A7911ABBD70900D6DD14 /* EQRenderFracStemTest.m */,
+				7179A7921ABBD70900D6DD14 /* EQRenderLayoutTest.m */,
+				7179A7931ABBD70900D6DD14 /* EQRenderMatrixRowStemTest.m */,
+				7179A7941ABBD70900D6DD14 /* EQRenderMatrixStemTest.m */,
+				7179A7951ABBD70900D6DD14 /* EQRenderStemTest.m */,
+				7179A7961ABBD70900D6DD14 /* EQRenderTypesetterTest.m */,
+				7179A7971ABBD70900D6DD14 /* EQTextPositionTest.m */,
+				7179A7981ABBD70900D6DD14 /* EQTextRangeTest.m */,
+				7179A7991ABBD70900D6DD14 /* MockEquationViewDataSource.h */,
+				7179A79A1ABBD70900D6DD14 /* MockEquationViewDataSource.m */,
 				716EC11F1AB67316005DC6B0 /* Supporting Files */,
 			);
 			path = "eq-libraryTests";
@@ -692,7 +721,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				716EC1221AB67316005DC6B0 /* eq_libraryTests.m in Sources */,
+				7179A79C1ABBD70900D6DD14 /* EQRenderLayoutTest.m in Sources */,
+				7179A7A21ABBD70900D6DD14 /* EQTextRangeTest.m in Sources */,
+				7179A79B1ABBD70900D6DD14 /* EQRenderFracStemTest.m in Sources */,
+				7179A79F1ABBD70900D6DD14 /* EQRenderStemTest.m in Sources */,
+				7179A79E1ABBD70900D6DD14 /* EQRenderMatrixStemTest.m in Sources */,
+				7179A79D1ABBD70900D6DD14 /* EQRenderMatrixRowStemTest.m in Sources */,
+				7179A7901ABBD69900D6DD14 /* EQRenderDataTest.m in Sources */,
+				7179A7A01ABBD70900D6DD14 /* EQRenderTypesetterTest.m in Sources */,
+				7179A7A11ABBD70900D6DD14 /* EQTextPositionTest.m in Sources */,
+				7179A7A31ABBD70900D6DD14 /* MockEquationViewDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
